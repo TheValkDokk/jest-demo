@@ -1,3 +1,5 @@
+[![Node.js CI](https://github.com/TheValkDokk/jest-demo/actions/workflows/node.js.yml/badge.svg)](https://github.com/TheValkDokk/jest-demo/actions/workflows/node.js.yml)
+
 ## Available Scripts
 
 In the project directory, you can run:
