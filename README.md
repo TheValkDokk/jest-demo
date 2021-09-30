@@ -1,4 +1,4 @@
-[![Node.js CI](https://github.com/TheValkDokk/jest-demo/actions/workflows/node.js.yml/badge.svg)](https://github.com/TheValkDokk/jest-demo/actions/workflows/node.js.yml)
+[![Node.js CI with GitHub Actions | © 2021 by Valk](https://github.com/TheValkDokk/jest-demo/actions/workflows/node.js.yml/badge.svg)](https://github.com/TheValkDokk/jest-demo/actions/workflows/node.js.yml)
 
 ## Available Scripts
 
