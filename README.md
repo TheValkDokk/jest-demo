@@ -18,6 +18,8 @@ You will also see any lint errors in the console.
 
 Runs this command to Enter Jest Watch All, this will monitor the whole app for code changed and test it for result in real time
 
+![Screenshot of Test](https://github.com/TheValkDokk/jest-demo/blob/main/images/test.png)
+
 This project is created for purpose of presentation demonstration in SWT301 by
 ## Cao Chanh Duc
 ##
