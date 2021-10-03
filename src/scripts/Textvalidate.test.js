@@ -1,4 +1,4 @@
-const validate = require('./validate')
+const validate = require('./TextValidate')
 
 test("returns false for empty input", () => {
   expect(validate("")).toBe(false)
