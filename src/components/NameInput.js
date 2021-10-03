@@ -1,25 +1,18 @@
 import React, { useState } from 'react'
 
-export default function NameInput() {
-
-    const [status, setStatus] = useState("Waiting input");
-    const validate = require('../scripts/NameValidate')
-
-    function Text() {
-        const fs = require('fs')
-        console.log(fs.readFileSync('/Test.txt'));
-    }
+export default function DoMath() {
+    const [result, setResult] = useState('Waiting for input ...');
 
     function check(val) {
-        let result = validate(val.target.value) ? "true" : "false"
-        console.log(result)
-        setStatus(result)
+        const validate = require('../scripts/NameValidate')
+        setResult(validate(val.target.value) ? "Vaild" : "Invalid")
     }
 
     return (
-        <div>
-            <input onChange={Text}></input>
-            <p>{status}</p>
-        </div>
+        <>
+            <p>Input Name for validate</p>
+            <input onChange={check}></input>
+            <p style={{ color: result === "Vaild" ? "green" : "red" }}>{result}</p>
+        </>
     )
 }
