@@ -24,7 +24,7 @@ Runs this command to Enter Jest Watch All, this will monitor the whole app for c
 
 This project is created for purpose of presentation demonstration in SWT301 by
 ## Cao Chanh Duc
-##
-##
-##
-##
+## Nguyen Le Hoang An
+## 
+## 
+## 

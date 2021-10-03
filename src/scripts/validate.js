@@ -1,6 +1,8 @@
 function validate(input) {
+
     const validLength = input.length >= 8  //check input length
     //Validate Logic
+    
     //Short version but may hard to understand
 
     let hasLetter = /[a-zA-Z]/g.test(input) //Logic for validate input have Letter

@@ -3,6 +3,7 @@ import React,{useState} from 'react'
 export default function TextInput() {
 
     const [Status, SetStatus] = useState('Awaits Input'); //useState to render when Status change
+    
     const validate = require('../scripts/validate') //import validate from validate.js
 
     function check(val){
