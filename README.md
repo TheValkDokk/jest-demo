@@ -19,7 +19,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `npm jest --watchAll`
+### `npx jest --watchAll`
 
 Runs this command to Enter Jest Watch All, this will monitor the whole app for code changed and test it for result in real time
 
