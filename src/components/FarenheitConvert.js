@@ -4,15 +4,18 @@ export default function DoMath() {
     const [result, setResult] = useState('Waiting for input ...');
 
     function check(val) {
-        const validate = require('../scripts/NameValidate')
-        setResult(validate(val.target.value) ? "Vaild" : "Invalid")
+        const calc = require('../scripts/CalcF2C')
+        val.target.value !== '' ?
+            setResult(calc(val.target.value) + ' C')
+            :
+            setResult('NaN')
     }
 
     return (
         <>
-            <p>Input Name for validate</p>
+            <p>Input Farenheit to convert to Cecius</p>
             <input onChange={check}></input>
-            <p style={{ color: result === "Vaild" ? "green" : "red" }}>{result}</p>
+            <p>{result}</p>
         </>
     )
 }

@@ -1,12 +1,12 @@
 import './App.css';
 import TextInput from './components/TextInput';
-import NameInput from './components/NameInput'
+import DoMath from './components/FarenheitConvert'
 
 function App() {
   return (
     <>
       <TextInput />
-      <NameInput />
+      <DoMath />
     </>
   );
 }
