@@ -13,7 +13,7 @@ export default function DoMath() {
 
     return (
         <>
-            <p>Input Farenheit to convert to Cecius</p>
+            <p>Input Fahrenheit to convert to Cecius</p>
             <input onChange={check}></input>
             <p>{result}</p>
         </>
