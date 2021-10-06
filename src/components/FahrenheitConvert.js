@@ -6,7 +6,7 @@ export default function DoMath() {
     function check(val) {
         const calc = require('../scripts/CalcF2C')
         val.target.value !== '' ?
-            setResult(calc(val.target.value) + ' C')
+            setResult(calc(val.target.value))
             :
             setResult('NaN')
     }
