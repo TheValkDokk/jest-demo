@@ -1,7 +1,7 @@
 const validate = require('./TextValidate')
 
 test("returns false for empty input", () => {
-  expect(validate("")).toBe(false)
+  expect(validate("")).toBeFalsy()
 })
 
 test("returns false for input without numbers", () => {

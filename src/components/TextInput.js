@@ -11,10 +11,10 @@ export default function TextInput() {
     }
 
     return (
-        <div>
+        <>
             <p>Input Text for validation (must contain letter and number, more than 8 characters)</p>
             <input onChange={check}></input>
             <p style={{ color: status === "Vaild" ? "green" : "red" }}>{status}</p>
-        </div>
+        </>
     )
 }
